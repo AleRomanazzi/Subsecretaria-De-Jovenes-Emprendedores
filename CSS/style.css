@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #EA1B36;
+}
+
+.header img{
+    display: flex;
+    justify-content: center;
+}
+
+.navbarrr{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 2rem 3rem 2rem;
+    list-style: none;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer{
+    background-color: #EA1B36;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem 5rem 2rem 5rem;
+}
