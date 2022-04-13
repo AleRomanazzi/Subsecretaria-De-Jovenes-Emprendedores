@@ -1,0 +1,124 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+header{
+    background-color: #EA1B36;
+}
+
+.header{
+    width: 75%;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header img{
+    display: flex;
+    justify-content: center;
+}
+
+.navbarr{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 2rem 3rem 2rem;
+    list-style: none;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+.navbarr a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.navbarr a:hover{
+    color: white;
+    background-color: #7A7A7A;
+}
+
+.colorsub{
+    background-color: #7A7A7A;
+    opacity: 80%;
+    &:hover{
+        background-color: #7A7A7A;
+        opacity: 100%;
+    }
+}
+
+
+
+.footer{
+    background-color: #EA1B36;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 5rem 2rem 5rem;
+    font-size: 20px;
+    ul{
+        li{
+            list-style: none;
+            padding: 1.5rem;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+.footer-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.autoridades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .botonAuto{
+        color: white;
+        padding: 1rem 3rem;
+        border-radius: 1px;
+        background-color: #EA1B36;
+        margin: 1rem;
+        width: 15rem;
+        text-align: center;
+        &:hover{
+            background-color: #7A7A7A;
+            cursor: pointer;
+        }
+    }
+}
+
+.mode-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.mode-2{
+    display: flex;
+    flex-direction: row;
+}
