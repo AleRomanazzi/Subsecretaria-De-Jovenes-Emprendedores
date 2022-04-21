@@ -11223,19 +11223,25 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #e2e2e2;
 }
 .autoridades .botonAuto {
   color: #fff;
   padding: 1rem 3rem;
   border-radius: 1px;
   background-color: #EA1B36;
-  margin: 1rem;
+  margin: 2rem 0 3rem 0;
   width: 15rem;
   text-align: center;
+  text-transform: uppercase;
 }
 .autoridades .botonAuto:hover {
   background-color: #7A7A7A;
   cursor: pointer;
+}
+.autoridades .botonAuto a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .boton-1 {

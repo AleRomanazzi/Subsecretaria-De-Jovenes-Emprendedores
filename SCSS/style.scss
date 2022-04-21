@@ -53,6 +53,7 @@ img{
 }
 
 
+
 .colorsub{
     background-color: #7A7A7A;
     opacity: 80%;
@@ -119,17 +120,23 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: $color_grey;
     .botonAuto{
         color: $color_white;
         padding: 1rem 3rem;
         border-radius: 1px;
         background-color: $color_prime;
-        margin: 1rem;
+        margin: 2rem 0 3rem 0;
         width: 15rem;
         text-align: center;
+        text-transform: uppercase;
         &:hover{
             background-color: #7A7A7A;
             cursor: pointer;
+        }
+        a{
+          text-decoration: none;
+          color: $color_white;
         }
     }
 }
