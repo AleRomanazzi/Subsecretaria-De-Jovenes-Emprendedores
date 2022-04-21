@@ -19,11 +19,12 @@ header{
 }
 
 .header{
-    width: 75%;
+    width: 85%;
     margin: auto;
     img{
       display: flex;
       justify-content: center;
+      margin-bottom: 1rem;
   }
 }
 
@@ -48,6 +49,7 @@ img{
       &:hover{
         color: $color_white;
         background-color: #7A7A7A;
+        border-radius: 4px;
     }
   }
 }
