@@ -1,4 +1,4 @@
-
+$accordion-button-active-color: #EA1B36;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
@@ -772,4 +772,9 @@ border-bottom-right-radius: 12px;
 .preguntas{
   width: 85%;
   margin: 7rem auto 7rem auto;
+}
+
+.h2{
+  text-align: center;
+  margin: 2rem;
 }
