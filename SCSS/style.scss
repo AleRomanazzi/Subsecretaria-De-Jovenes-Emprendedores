@@ -765,3 +765,11 @@ border-bottom-right-radius: 12px;
 }
 
 
+/* Seccion Preguntas Frecuentes */
+
+@import "../node_modules/bootstrap/scss/accordion";
+
+.preguntas{
+  width: 85%;
+  margin: 7rem auto 7rem auto;
+}
