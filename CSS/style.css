@@ -11210,8 +11210,8 @@ img {
   width: 30px;
   height: 30px;
 }
-.footer-b ul li:hover {
-  text-shadow: #fff 8px 4px 4px;
+.footer-b ul li a:hover {
+  text-shadow: #e2e2e2 2px 3px 10px;
 }
 
 .footer-c {

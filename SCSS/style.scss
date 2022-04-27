@@ -103,10 +103,9 @@ img{
             width: 30px;
             height: 30px;
           }
-          &:hover{
-          text-shadow: $color_white 8px 4px 4px;
+          a:hover{
+            text-shadow: $color_grey 2px 3px 10px;
           }
-
       }
     }
 }
