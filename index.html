@@ -1,172 +1,278 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <title>Secretaría de Empleo Joven</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="header">
-            <div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-around; align-items: center;">
-                <img src="./Imagenes/Logo/banner-web-ministerioMesa-de-trabajo-1-1024x80-3.png" alt="">
-                <img src="./Imagenes/Malvi.png" width="200px" height="auto" alt="">
-            </div>
-            <div>
-                <nav>
-                    <ul class="navbarr">
-                        <li>
-                            <a href="./index.html">INICIO</a> 
-                        </li>
-                        <li>
-                          <a class="nav-link dropdown-toggle contrac" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">PROGRAMAS</a>
-                          <ul class="dropdown-menu p-0">
-                            <li class="colorsub"><a class="dropdown-item" href="./HTML/programas/empleojoven.html">Plan Empleo Joven (Provincia)</a></li>
-                            <li class="colorsub"><a class="dropdown-item" href="./HTML/programas/empleojovenN.html">Plan Empleo Joven (Nación)</a></li>
-                            <li class="colorsub"><a class="dropdown-item" href="./HTML/programas/modoe.html">Modo Emprendedor</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                            <a href="./HTML/comerciantes.html">COMERCIANTES</a> 
-                        </li>
-                        <li>
-                          <a href="../../HTML/tutoriales.html">TUTORIALES</a> 
-                        </li>
-                        <li>
-                            <a href="./HTML/contacto.html">CONTACTO</a> 
-                        </li>
-                        <li>
-                          <a href="./HTML/preguntasFrec.html">F.A.Q</a> 
-                      </li>
-                    </ul>
-                </nav>
-            </div>
-
-        </div>       
-    </header>
-    <div id="carouselExampleIndicators" class="carousel slide reajust" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <div class="header">
+        <div class="container-fluid d-flex flex-row flex-nowrap align-items-center ">
+          <img
+            width="50%"
+            src="./Imagenes/Logo/banner.png"
+            alt=""
+          />
+          <img class="pt-3" src="./Imagenes/Malvi.png" width="100px" height="auto" alt="" />
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./Imagenes/1.jpeg" class="d-block w-80 m-auto" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./Imagenes/2.jpeg" class="d-block w-100 m-auto" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./Imagenes/3.jpeg" class="d-block w-100 m-auto" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <section>
-        <div class="blog-card">
-          <div class="meta">
-            <div class="photo" style="background-image: url('http://www.prensanoa.com/fotos/cache/notas/2021/03/28/818x460_210328155345_82564.jpg')"></div>
-          </div>
-          <div class="description">
-            <h1>Empleo Joven (Provincia)</h1>
-            <h2></h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-            <p class="read-more">
-              <a href="#">INGRESAR</a>
-            </p>
-          </div>
-        </div>
-        <div class="blog-card alt">
-          <div class="meta">
-            <div class="photo" style="background-image: url('https://i.ytimg.com/vi/qMR5QkRcxBo/maxresdefault.jpg')"></div>
-          </div>
-          <div class="description">
-            <h1>Empleo Joven - Te sumo (Nación)</h1>
-            <h2></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-            <p class="read-more">
-              <a href="#">INGRESAR</a>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="notice">
-        <div class="container">
-          <h1>Últimas noticias</h1>
-          <div class="card-wrapper">
-            <div class="card">
-              <a href="" target="_blank" class="float">Ver noticia </a>
-              <div class="image"></div>
-              <div class="content">
-                <p>.</p>
-                <h3>Pago programa empleo joven.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum libero corrupti iste amet at ad...<a href="" target="_blank"> ver más</a></p>
-              </div>
-            </div>
-            <div class="card">
-              <a href="" target="_blank" class="float">Ver noticia </a>
-              <div class="image"></div>
-              <div class="content">
-                <p>.</p>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ex laboriosam dolorem!...<a href="" target="_blank"> ver más</a></p>
-      
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <div class="autoridades">
-
-        <div class="botonAuto">
-          <a href="./HTML/autoridades.html">Autoridades</a>
-        </div>
-        
-
-      </div>
-
-    <footer>
-        <div class="footer">
-            <div class="footer-a">
-                Ministerio de Trabajo, empleo e industria
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.449577631514!2d-66.86110618489954!3d-29.4156538821154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9427db084488a14f%3A0x20e2f737930da55a!2sMinisterio%20de%20Trabajo%2C%20Empleo%20e%20Industria!5e0!3m2!1ses!2sar!4v1648485594760!5m2!1ses!2sar" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="footer-b">
-                Redes Sociales
-                <ul>
-                  <li>
-                    <img src="./Imagenes/icons8-instagram-50.png" alt="">
-                    <a href="https://www.instagram.com/secempleolr/" target="_blank">Instagram</a>
+        <div>
+          <nav>
+            <ul class="navbarr hidden">
+              <li>
+                <a href="./index.html">INICIO</a>
+              </li>
+              <li>
+                <a
+                  class="nav-link dropdown-toggle contrac"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  >PROGRAMAS</a
+                >
+                <ul class="dropdown-menu p-0">
+                  <li class="colorsub">
+                    <a
+                      class="dropdown-item"
+                      href="./HTML/programas/empleojoven.html"
+                      >Plan Empleo Joven (Provincia)</a
+                    >
                   </li>
-                  <li>
-                    <img src="./Imagenes/icons8-facebook-50.png" alt="">
-                    <a href="https://www.facebook.com/trabajoempleoindustrialr" target="_blank">Facebook</a>
+                  <li class="colorsub">
+                    <a
+                      class="dropdown-item"
+                      href="./HTML/programas/empleojovenN.html"
+                      >Plan Empleo Joven (Nación)</a
+                    >
                   </li>
-                  <li>
-                    <img src="./Imagenes/icons8-mail-50.png" alt="">
-                    <a href="mintrabajoempleoindustria@gmail.com" target="_blank">Correo electronico</a>
+                  <li class="colorsub">
+                    <a class="dropdown-item" href="./HTML/programas/modoe.html"
+                      >Modo Emprendedor</a
+                    >
                   </li>
                 </ul>
-                <img src="https://hacienda.larioja.gob.ar/wp-content/uploads/2021/04/LOGO-GOBIERNO.png" alt="">
-            </div>
+              </li>
+              <li>
+                <a href="./HTML/comerciantes.html">COMERCIANTES</a>
+              </li>
+              <li>
+                <a href="../../HTML/tutoriales.html">TUTORIALES</a>
+              </li>
+              <li>
+                <a href="./HTML/contacto.html">CONTACTO</a>
+              </li>
+              <li>
+                <a href="./HTML/preguntasFrec.html">F.A.Q</a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
+    </header>
+    <div class="position-relative">
+      <div class="burger position-fixed top-0 end-0" id="menuBtn" style="z-index:1000;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="black" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </div>
+    </div>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide reajust"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Imagenes/1.jpeg" class="d-block w-80 m-auto" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/2.jpeg" class="d-block w-100 m-auto" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/3.jpeg" class="d-block w-100 m-auto" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section>
+      <div class="blog-card">
+        <div>
+          <img class="img-fluid" src="http://www.prensanoa.com/fotos/cache/notas/2021/03/28/818x460_210328155345_82564.jpg"></img>
+        </div>
+        <div class="description">
+          <h1>Empleo Joven (Provincia)</h1>
+          <h2></h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum
+            dolorum architecto obcaecati enim dicta praesentium, quam nobis!
+            Neque ad aliquam facilis numquam. Veritatis, sit.
+          </p>
+          <p class="read-more">
+            <a href="#">INGRESAR</a>
+          </p>
+        </div>
+      </div>
+      <div class="blog-card alt">
+        <div>
+          <img
+            class="img-fluid"
+            src="https://i.ytimg.com/vi/qMR5QkRcxBo/maxresdefault.jpg"
+          ></img>
+        </div>
+        <div class="description">
+          <h1>Empleo Joven - Te sumo (Nación)</h1>
+          <h2></h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum
+            dolorum architecto obcaecati enim dicta praesentium, quam nobis!
+            Neque ad aliquam facilis numquam. Veritatis, sit.
+          </p>
+          <p class="read-more">
+            <a href="#">INGRESAR</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="notice">
+      <div class="container">
+        <h1>Últimas noticias</h1>
+        <div class="card-wrapper">
+          <div class="card">
+            <a href="" target="_blank" class="float">Ver noticia </a>
+            <div class="image"></div>
+            <div class="content">
+              <p>.</p>
+              <h3>Pago programa empleo joven.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                libero corrupti iste amet at ad...<a href="" target="_blank">
+                  ver más</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="" target="_blank" class="float">Ver noticia </a>
+            <div class="image"></div>
+            <div class="content">
+              <p>.</p>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Numquam ex laboriosam dolorem!...<a href="" target="_blank">
+                  ver más</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="autoridades">
+      <div class="botonAuto">
+        <a href="./HTML/autoridades.html">Autoridades</a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-a">
+          Ministerio de Trabajo, empleo e industria
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.449577631514!2d-66.86110618489954!3d-29.4156538821154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9427db084488a14f%3A0x20e2f737930da55a!2sMinisterio%20de%20Trabajo%2C%20Empleo%20e%20Industria!5e0!3m2!1ses!2sar!4v1648485594760!5m2!1ses!2sar"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="footer-b">
+          Redes Sociales
+          <ul>
+            <li>
+              <img src="./Imagenes/icons8-instagram-50.png" alt="" />
+              <a href="https://www.instagram.com/secempleolr/" target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <img src="./Imagenes/icons8-facebook-50.png" alt="" />
+              <a
+                href="https://www.facebook.com/trabajoempleoindustrialr"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <img src="./Imagenes/icons8-mail-50.png" alt="" />
+              <a href="mintrabajoempleoindustria@gmail.com" target="_blank"
+                >Correo electronico</a
+              >
+            </li>
+          </ul>
+          <img
+            src="https://hacienda.larioja.gob.ar/wp-content/uploads/2021/04/LOGO-GOBIERNO.png"
+            alt=""
+          />
+        </div>
+      </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="JS/menu.js"></script>
+  </body>
 </html>
